@@ -18,9 +18,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        File file = new File("../sdcard/Android/1.txt");
-//        String fileContent = GetSDCardFile.getFileContent(file);
-        String fileContent = GetSDCardFile.readTxt("../sdcard/Android/");
-        Log.i("get file", "文件内容为：" + fileContent);
     }
 }
