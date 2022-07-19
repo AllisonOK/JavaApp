@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        String dd = "";
         Toast.makeText(this, BuildConfig.BASE_URL, Toast.LENGTH_SHORT).show();
     }
 }
