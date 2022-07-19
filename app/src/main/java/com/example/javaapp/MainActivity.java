@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String dd = "";
+        String dddd = "";
         Toast.makeText(this, BuildConfig.BASE_URL, Toast.LENGTH_SHORT).show();
     }
 }
